@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'mukta', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-width: 100vh;
+    /*Permite que o body deixa um valor minimo de altura*/
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://la-torre-resort-all-inclusive.porto-seguro-hotels.com/data/Imgs/OriginalPhoto/13807/1380743/1380743756/img-la-torre-resort-all-inclusive-porto-seguro-7.JPEG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #ffffff35;
+    backdrop-filter: blur(15px);
+    width: 800px;
+    height: 300px;
+    border-radius: .4rem;
+}
+
+section h1{
+    font-size: 3rem;
+    color: maroon;
+    text-shadow: black 2px 2px;
+}
+
+button#get-advice{
+    font-size: 15px;
+    width: 190px;
+    height: 70px;
+    border-width: 6px;
+    color: #ffffff;
+    border-color: maroon;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    box-shadow: inset 0px 1px 0px 0px #a6827e;
+    background: linear-gradient(#a6827e,#54381e);
+    cursor: pointer;
+}
+
+p#advice{
+    font-size: 1.5rem;
+    text-align: center;
+    color: maroon;
+    text-shadow: black 1.2px 1.3px;
+    font-weight: 600;
+}
